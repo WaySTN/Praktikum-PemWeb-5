@@ -41,7 +41,7 @@
 <?php include "layout/header.html" ?>
     <h3>DAFTAR AKUN</h3>
 
-    <i> <?php echo $register_message?> </i>
+    <i> <?= $register_message?> </i>
    <form action = "register.php" method= "POST">
         <input type="text" placeholder="username" name="username"/>
         <input type="password" placeholder ="password" name="password"/>
